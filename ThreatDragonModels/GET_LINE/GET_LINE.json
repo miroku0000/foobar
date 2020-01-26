@@ -1,10 +1,17 @@
 {
   "summary": {
     "title": "GET_LINE",
-    "owner": "Randy Flood"
+    "owner": "Randy Flood",
+    "description": "The get_Line program reads from standard input or from a file passed in ARGV[1].  It reads the first 1023 characters of the file or until it reaches a '\\r' or '\\n' and the prints out a message containing its input string.  It ignores \"\\r\" characters in the input."
   },
   "detail": {
     "contributors": [],
-    "diagrams": []
+    "diagrams": [
+      {
+        "title": "Threat Model",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ]
   }
 }
